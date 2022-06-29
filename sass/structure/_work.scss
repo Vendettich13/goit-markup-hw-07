@@ -1,0 +1,48 @@
+.work-title,
+.team-title,
+.client-title {
+  text-align: center;
+
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.thumb-work {
+  position: relative;
+}
+
+.description-work-text {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0 auto;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-page-color);
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work {
+  padding-top: 0;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list .title-item:nth-child(-n + 2) {
+  margin-right: 30px;
+}
