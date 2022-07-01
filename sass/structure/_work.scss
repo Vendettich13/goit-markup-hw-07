@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.description-work-text {
+.thumb-work__text {
   position: absolute;
   bottom: 0;
 
@@ -43,6 +43,6 @@
   display: flex;
 }
 
-.work-list .title-item:nth-child(-n + 2) {
+.work-list .work-list__item:nth-child(-n + 2) {
   margin-right: 30px;
 }

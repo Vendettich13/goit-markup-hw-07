@@ -10,21 +10,15 @@
   background-color: #f5f4fa;
 }
 
-.features-icon {
+.thumb__icon {
   display: inline-flex;
 }
 
-.feature-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: var(--main-text-color);
+.feature__item:not(:last-child) {
+  margin-right: 30px;
 }
 
-.feature-text {
+.thumb__text {
   min-width: 270px;
 
   font-size: 14px;
@@ -33,10 +27,16 @@
   color: var(--secondary-color);
 }
 
-.feature-list {
+.feature {
   display: flex;
 }
+.thumb__title {
+  margin-bottom: 10px;
 
-.feature-list .title:nth-child(-n + 3) {
-  margin-right: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }

@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.nav-link.current {
+.nav__link.current {
   color: var(--accent);
 
   &::after {
@@ -38,15 +38,15 @@
   margin-right: auto;
 }
 
-.nav .item {
+.nav__item {
   margin-right: 50px;
 }
 
-.nav .item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
-.nav-link {
+.nav__link {
   position: relative;
 
   padding-top: 32px;
@@ -71,11 +71,11 @@
   margin-left: auto;
 }
 
-.auth .item + .item {
+.auth__item:last-child {
   margin-left: 50px;
 }
 
-.auth-header-link {
+.auth-header__link {
   display: flex;
   align-items: center;
 
@@ -96,7 +96,7 @@
   }
 }
 
-.auth-icon {
+.auth__icon {
   margin-right: 10px;
   fill: currentColor;
 }

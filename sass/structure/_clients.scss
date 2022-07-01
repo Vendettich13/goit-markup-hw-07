@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.client-item-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +23,10 @@
   }
 }
 
-.client-item:last-child {
+.clients-list__item:last-child {
   margin-right: 0;
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
 }
